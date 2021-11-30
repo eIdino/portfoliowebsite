@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+}
+
+.banner-image {
+    background: url('portfolio.jpg');
+    background-size: cover;
+}
+
+.banner h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 500%;
+    color: white;
+}
+
+.banner h5 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 300%;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading-content {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
+}
+
+#education .btn {
+    border: 2px solid lightskyblue;
+    width: 40%;
+    padding: 15px 22px;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#education .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#education .btn:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+#modulesgrades .btn {
+    border: 2px solid lightskyblue;
+    width: 40%;
+    padding: 15px 22px;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#modulesgrades .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#modulesgrades .btn:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+#contact .btn {
+    border: 2px solid lightskyblue;
+    width: 40%;
+    padding: 15px 22px;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contact .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#contact .btn:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+#sectorinterest .btn {
+    border: 2px solid lightskyblue;
+    width: 40%;
+    padding: 15px 22px;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#sectorinterest .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#sectorinterest .btn:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.required {
+    color:gray; 
+    font-weight:bold
+  } 
+  .human {margin: 0 0 0 12px}
